@@ -1,0 +1,143 @@
+html, body {
+      font-size: 14px;
+      }
+      body {
+        background:  #00a198 !important;
+      }
+      @media only screen and (min-width: 950px) {
+      .wrapper {
+      max-width: 900px;
+      }
+      }
+      #headerBox{
+      background-color: rgba(255,255,255,1);
+      }
+      #headerTitle {
+      font-family: 'Open Sans';
+      color: #333333;
+      }
+      #headerText {
+      font-family: 'Open Sans';
+      color: #333333;
+      }
+      .progress-wrapper {
+      width: 90%;
+      height: 20px;
+      border: 2px solid #333333;
+      background-color: #ffffff;
+      margin: 10px auto;
+      overflow: hidden;
+      }
+      .progress-bar{
+      width: 0%;
+      height: 20px;
+      border: none;
+      background-color: #05f254;
+      margin: 0;
+      position: relative;
+      left: 0;
+      top: 0;
+      }
+      #surveyBox {
+      background-color: rgba(255,255,255,1);
+      }
+      .questionStep header, .evalTitle, #surveyEnd header h4 {
+      font-family: 'Open Sans';
+      color: #000;
+      }
+      .questionStep h6, .evalText, #surveyEnd section {
+      font-family: 'Open Sans';
+      color: #000000;
+      }
+      .psc-menu li a, .psc-menu li a:hover, .psc-menu li a:active {
+      font-family: 'Open Sans';
+      color: #000000;
+      }
+      .psc-menu li:after {
+      color: #000000;
+      }
+      .yesBtn {
+      font-family: 'Open Sans';
+      background-color: #ffc13c;
+      color: #000;
+      font-weight: bold;
+      }
+      .yesBtn:hover {
+        font-family: 'Open Sans';
+        background-color: #ffc13c;
+        color: #000;
+        font-weight: bold;
+        }
+      input[type="radio"].yesBtn + label    {
+      font-family: 'Open Sans';
+      color: #000;
+      }
+      .noBtn {
+      font-family: 'Open Sans';
+      background-color: #ffc13c;
+      color: #000;
+      font-weight: bold;
+      }
+      .noBtn:hover {
+        font-family: 'Open Sans';
+        background-color: #ffc13c;
+        color: #000;
+        font-weight: bold;
+        }
+      input[type="radio"].noBtn + label {
+      font-family: 'Open Sans';
+      color: #000;
+      font-weight: bold;
+      }
+      .delayGeo{display:none}h1,h2{font-family:'Open Sans',Helvetica,Arial,sans-serif;color:#333;text-shadow:0 0 1px transparent}h1{margin:0 0 .15em;line-height:1.3}h2{line-height:1;margin-top:1.253em}h3{font-style:italic;font-weight:700;margin:1em 0 .25em}p{margin-bottom:1em;line-height:24px;text-rendering:optimizeLegibility}.progress-wrapper{width:100%!important;height:20px;margin:0 auto!important;overflow:hidden;border:0!important;background-color:#fff!important}img{max-width:100%}
+
+article#surveyEnd {
+    padding: 0 50px;
+}
+
+@media screen and (max-width: 799px){
+	#surveyAgree {
+    	width: 100% !important;
+    	font-size: 16px !important;
+	}	
+	article#surveyEnd{
+		padding: 0 !important;
+	}
+}
+
+#surveyBox {
+  background: none !important;
+}
+.questionStep h6, .evalText, #surveyEnd section {
+  font-family: 'Open Sans';
+  color: #fff !important;
+  font-size: 24px !important;
+}
+.questionStep h3 {
+  font-family: 'Open Sans';
+  color: #FFC23C;
+  text-align: center;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 26px;
+  margin: 0 0 0 0;
+}
+#surveyEnd h4 {
+  font-family: 'Open Sans';
+  color: #ffc13c !important;
+  text-align: center;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+#surveyEnd p{
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: normal !important;
+  font-size: 15px !important;
+  line-height: 21px !important;
+}
+#footer{
+  color: #222222;
+}
